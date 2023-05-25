@@ -10,20 +10,39 @@ function App() {
     <div>
       <Navigation />
       <header>
+        <div>
+          <h1>
+          Little Lemon
+          </h1>
+          <p>
+            Little Lemon is an italian retraunt in Seattle
+          </p>
+          <button>
+            Reserve a table
+          </button>
+        </div>
         
       </header>
       
       <main>
-        <h1>
+        <div>
+          <h1>
           special offer
-        </h1>
-        <Offer/>
-        <Offer/>
-        <Offer/>
+          </h1>
+          <button>
+            order now
+          </button>
+        </div>
+        <div>
+          <Offer/>
+          <Offer/>
+          <Offer/>
+        </div>
+        
 
       </main>
       <footer>
-
+        contact information
       </footer>
     </div>
     
