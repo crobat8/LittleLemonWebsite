@@ -7,7 +7,7 @@ import Offer from './offer.js';
 
 function App() {
   return (
-    <div>
+    <div class="mainframe">
       <Navigation />
       <header>
         <div>

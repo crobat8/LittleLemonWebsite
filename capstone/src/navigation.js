@@ -1,11 +1,15 @@
+ 
 function Navigation(){
     return(
         <nav>
-            {/*<img>logo</img>*/}
-            <a>home</a>
-            <a>about</a>
-            <a>reservation</a>
-            <a>order online</a>
+            <img src="./test.png" alt="logo"></img>
+            <ul>
+                <li><a>home</a></li>
+                <li><a>about</a></li>
+                <li><a>reservations</a></li>
+                <li><a>order online</a></li>
+            </ul>
+            
         </nav>
     )
 }
