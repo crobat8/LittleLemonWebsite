@@ -9,7 +9,7 @@ function App() {
   return (
     <div class="mainframe">
       <Navigation />
-      <header>
+      <header class="topInfo">
         <div>
           <h1>
           Little Lemon
@@ -24,7 +24,7 @@ function App() {
         
       </header>
       
-      <main>
+      <main class="core">
         <div>
           <h1>
           special offer
@@ -33,15 +33,15 @@ function App() {
             order now
           </button>
         </div>
-        <div>
-          <Offer/>
-          <Offer/>
-          <Offer/>
-        </div>
+        <ul>
+          <Offer name='pizza' price = "10.99"   info ='our original peperoni pizza'/>
+          <Offer name='lasugna' price='12.99'   info ='large slice of our homade lasugna'/>
+          <Offer name='fettichine' price='8.99' info ='fettichine alfredo with chicken'/>
+        </ul>
         
 
       </main>
-      <footer>
+      <footer class="bottomInfo">
         contact information
       </footer>
     </div>
